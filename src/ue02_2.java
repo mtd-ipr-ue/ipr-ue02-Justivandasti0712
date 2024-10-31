@@ -28,8 +28,13 @@ public class ue02_2 {
                         System.out.println("Dies ist ein Schaltjahr, der Februar hat 29 Tage");
                     }
 
-                break;
+                
                 }
+                else{
+                System.out.println("Dies ist kein Schaltjahr, der Februat hat 28 Tage");
+                }
+                break;
+            
 
             case 4,6,9,11:
                 System.out.println("Der Monat hat 30 Tage");
